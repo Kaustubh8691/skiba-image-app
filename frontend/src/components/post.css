@@ -1,0 +1,43 @@
+.container {
+    padding-top: 2vh;
+    background-color: lightblue;
+}
+.posts {
+    display: flex;
+    width: 85vw;
+    flex-flow: wrap;
+}
+img, svg {
+    vertical-align: middle;
+    border-radius: 15px;
+    border: 0.5px solid;
+}
+.header {
+    width: 71vw;
+    display: flex;
+    justify-content: space-between;
+}
+button.btns.new {
+    background-color: coral;
+    border: none;
+    font-size: large;
+    height: 6vh;
+    width: fit-content;
+    border-radius: 5px;
+}
+button.btns.logout {
+    background-color: blueviolet;
+    border: none;
+    font-size: large;
+    height: 6vh;
+    border-radius: 5px;
+}
+.post-card {
+    margin-left: 6px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    
+}
+.name {
+    text-align: center;
+}

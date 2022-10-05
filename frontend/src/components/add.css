@@ -1,0 +1,40 @@
+label {
+   
+    margin-bottom: 10px;
+}
+.form-row {
+    margin-bottom: 10px;
+}
+h3.text {
+    color: black;
+    text-align-last: center;
+}
+.sun-container {
+    border: 1px solid lightcoral;
+    padding: 4vh;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+.container2.mr-60 {
+    height: 100vh;
+    padding: 20vh;
+}
+button.btnss {
+    margin-right: 5vw;
+    height: 6vh;
+    width: 5vw;
+    border-radius: 7px;
+    border: none;
+    font-size: large;
+}
+button.btns {
+    margin-right: 5vw;
+    height: 6vh;
+    width: 5vw;
+    border-radius: 7px;
+    border: none;
+    font-size: large;
+}
+input.form-control {
+    margin-bottom: 7px;
+}

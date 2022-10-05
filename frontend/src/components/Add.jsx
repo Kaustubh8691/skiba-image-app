@@ -27,7 +27,7 @@ const Add = () => {
 
   const [isSucces, setSuccess] = useState(null);
   const submit = async () =>{
-    if(name=="" || userInfo.filepreview==null){
+    if(name==="" || userInfo.filepreview===null){
       alert("fill the input data")
     }
     else{

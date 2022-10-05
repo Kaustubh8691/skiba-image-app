@@ -22,7 +22,7 @@ const Login = () => {
             data:{tokenId:response.tokenId},
             }).then(response=>{
                 // console.log(response);
-                if(response.status==200){
+                if(response.status===200){
                     // console.log(response.data.user._id)
                     sessionStorage.setItem("id",response.data.user._id)
                     navigate("/posts")
